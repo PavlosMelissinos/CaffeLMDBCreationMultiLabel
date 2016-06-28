@@ -18,13 +18,13 @@ layers {
     crop_size: 180
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
     # Please set the following path appropriately 
-    mean_file: "/home/sukrit/Desktop/caffe_project/datasets/data.binaryproto"
+    mean_file: "/home/pmelissi/repos/dtd/Data/train/data.binaryproto"
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
   }
   data_param {
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
     # Please set the following path appropriately 
-    source: "/home/sukrit/Desktop/caffe_project/lmdbs/data_lmdb_train"
+    source: "/home/pmelissi/repos/dtd/lmdbs/train/data_lmdb"
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
     batch_size: 32
     backend: LMDB
@@ -46,7 +46,7 @@ layers {
   data_param {
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
     # Please set the following path appropriately 
-    source: "/home/sukrit/Desktop/caffe_project/lmdbs/label_lmdb_train"
+    source: "/home/pmelissi/repos/dtd/lmdbs/train/label_lmdb"
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
     batch_size: 32
     backend: LMDB
@@ -68,13 +68,13 @@ layers {
     crop_size: 180
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
     # Please set the following path appropriately 
-    mean_file: "/home/sukrit/Desktop/caffe_project/datasets/data.binaryproto"
+    mean_file: "/home/pmelissi/repos/dtd/Data/val/data.binaryproto"
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
   }
   data_param {
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
     # Please set the following path appropriately 
-    source: "/home/sukrit/Desktop/caffe_project/lmdbs/data_lmdb_val"
+    source: "/home/pmelissi/repos/dtd/lmdbs/val/data_lmdb"
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
     batch_size: 1
     backend: LMDB
@@ -96,7 +96,7 @@ layers {
   data_param {
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
     # Please set the following path appropriately 
-    source: "/home/sukrit/Desktop/caffe_project/lmdbs/label_lmdb_val"
+    source: "/home/pmelissi/repos/dtd/lmdbs/val/label_lmdb"
     # -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+
     batch_size: 1
     backend: LMDB
