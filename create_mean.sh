@@ -13,15 +13,12 @@ TOOLS=~/src/caffe/build/tools    			# Caffe dependency to access the compute_ima
 
 # ------------------------------
 $TOOLS/compute_image_mean $LMDBS/train/data_lmdb \
-#  $DATA/train/data.binaryproto
   $LMDBS/train/data.binaryproto
 
 $TOOLS/compute_image_mean $LMDBS/val/data_lmdb \
-#  $DATA/val/data.binaryproto
   $LMDBS/val/data.binaryproto
 
 $TOOLS/compute_image_mean $LMDBS/test/data_lmdb \
-#  $DATA/test/data.binaryproto
   $LMDBS/test/data.binaryproto
 
 # ------------------------------
