@@ -53,7 +53,7 @@ fi
     $EXAMPLE_VAL/data_lmdb
 
 # ------------------------------
-# Creating LMDB TRAIN
+# Creating LMDB TEST
  echo "Creating data lmdb..."
  GLOG_logtostderr=1 $TOOLS/convert_imageset \
     --resize_height=$RESIZE_HEIGHT \
